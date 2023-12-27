@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');	
+body{
+	max-width: 120rem;
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.vrapper{
+	max-width: 810px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.container{
+	height: 52px;
+	display: flex;
+	align-items: center;
+}
+
+.page{
+	max-height: 52px;
+	margin-bottom: 103px;
+
+}
+.logo__page{
+	display: flex;
+	justify-content: flex-start;
+}
+.logo__page img{
+	width: 21.69px;
+	height: 20px;
+}
+.logo__word{
+	display: flex;
+	justify-content: flex-start;
+	max-width: 130px;
+	max-height: 22px;
+	margin-right: 60px;
+	line-height: 1.2;
+	
+	
+}
+.word__title{
+	color: #1E212C;
+	max-width: 130px;
+	font-size: 22px;
+	font-weight: 900;
+	
+}
+.word__image{
+	color: #FF3F3A;
+	margin-top: 3px;
+
+}
+.logo__list a{
+	font-weight: 700;
+	line-height: 160%;
+	color: #424551;
+	min-width: 429px;
+	min-height: 26px;
+	margin-right: 40px;
+		
+}
+a:hover{
+	color: #FF3F3A;
+}
+.box {
+	line-height: 1.6;
+	color: #424551;
+	display: flex;
+
+}
+.box__article{
+	margin-right: 8px;
+	margin-bottom: 24px;
+}
+.box__article::before{
+	content: url("../img/Files.svg");	
+	max-width: 8px;
+	margin-right: 8px;
+	padding-top: 8px;
+
+}
+.box__article::after{
+	content: "|";
+	margin-left: 8px;
+}
+.title{
+	font-family: Lato;
+	font-size: 46px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 1.3;	
+	color: #1E212C;
+	margin-bottom: 20px;
+}
+.conteinar__one{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.one__before{
+	display: flex;
+	line-height: 160%
+}
+.one__after{
+	display: flex;
+	font-weight: 700;
+	line-height: 160%;
+	color: #1E212C;
+}
+.before__first{
+	margin-right: 24px;
+}
+.before__first::before{
+	content: url("../img/Calendar.svg");
+	margin-right: 8px;
+}
+.before__twice::before{
+	content: url("../img/Clock.svg");
+	margin-right: 8px;
+
+}
+.after__span{
+	margin-right: 12px;
+
+}
+.fter__link{
+	margin-right: 12px;
+}
+.pictures{
+	max-width: 100%;
+	margin-bottom: 60px;
+}
+.text {
+	margin-bottom: 26px;
+	color: #1E212C;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 150%
+	
+}
+.text-two p{
+	margin-bottom: 26px;
+	line-height: 160%;
+}
+.text-two {
+	margin-bottom: 46px;
+}
+.text-three {
+	color: #1E212C;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 150%;
+	padding-left: 58px;
+	margin-bottom: 48px;
+
+}
+.text-three::before{
+	content: url("../img/braces.svg");
+	display: block;
+	margin-left: -58px;
+	
+	margin-bottom: -30px;
+
+}
+.text-four {
+	margin-bottom: 24px;
+	line-height: 160%;
+
+}
+.list {
+	line-height: 160%;
+	padding-left: 25px;
+	margin-bottom: 24px;
+}
+.list li::before{
+	content: url("../img/check.svg");
+	margin-right: 16px;
+	display: block;
+	margin-bottom: -20px;
+	margin-left: -27px;
+	max-width: 16px;
+	max-height: 16px;
+}
+.text-last {
+	line-height: 160%;
+	margin-bottom: 65px;
+}
+.footer__box {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+.box__one {
+	display: flex;
+}
+.one__span {
+	font-weight: 700;
+	line-height: 160%;
+	margin-right: 12px;
+}
+.one__link {
+	margin-right: 12px;
+	/* margin-top: 5px; */
+	border: 1px solid #000;
+	padding: 4px;
+	border-radius: 5px;
+	
+}
+.box__two {
+	display: flex;
+}
+.two__span {
+	font-weight: 700;
+	line-height: 160%;
+}
+.two__link {
+	margin-right: 12px;
+}
